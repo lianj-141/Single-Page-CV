@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Junior Frontend Developer CV with skills, education, and experience.">
+    <meta name="keywords" content="CV, resume, frontend developer, HTML, CSS, JavaScript">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="My CV - Junior Frontend Developer">
+    <meta property="og:description" content="Junior Frontend Developer CV with skills, education, and experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+    <meta property="og:site_name" content="My CV">
+    <meta property="og:locale" content="zh_CN">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>我的简历 - Junior Frontend Developer</title>
+    <style>
+        /* 基础样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 40px 20px;
+        }
+
+        /* 简历容器 */
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 60px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        /* 顶部装饰线 */
+        .top-line {
+            border-top: 2px solid #000;
+            margin-bottom: 30px;
+        }
+
+        /* 标题部分 */
+        header h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            color: #4CAF50; /* 绿色 */
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        /* 章节通用样式 */
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 16px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .skills-list, .education-content, .experience-item, .social-links {
+            font-size: 15px;
+        }
+
+        /* 教育与经验项目样式 */
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .item-title {
+            color: #2b78b8; /* 蓝色 */
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .item-date {
+            color: #666;
+            font-size: 14px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .skills-tags {
+            font-weight: 500;
+            margin-top: 10px;
+            display: block;
+        }
+
+        /* 链接样式 */
+        a {
+            color: #2b78b8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 30px 20px;
+            }
+            .item-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <div class="top-line"></div>
+
+        <header>
+            <h1>Your Name</h1>
+            <p class="job-title">Junior Frontend Developer</p>
+            <div class="contact-info">
+                <p>123 Your Street</p>
+                <p>Your City, ST 12345</p>
+                <p>(123) 456-7890</p>
+                <p>no_reply@example.com</p>
+            </div>
+        </header>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p class="skills-list">
+                HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-content">
+                <div class="item-header">
+                    <span class="item-title">School Name, Location - Degree</span>
+                    <span class="item-date">Month 20xx to Month 20xx</span>
+                </div>
+                <p>List of exciting things you did at university</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">Company Name, Location - Job Title</span>
+                    <span class="item-date">Month 20xx to Month 20xx</span>
+                </div>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p class="skills-tags">Skills: List of skills used or gained at this company</p>
+            </div>
+
+            <br>
+
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">Company Name, Location - Job Title</span>
+                    <span class="item-date">Month 20xx to Month 20xx</span>
+                </div>
+                <ul>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                    <li>List of achievements</li>
+                </ul>
+                <p class="skills-tags">Skills: List of skills used or gained at this company</p>
+            </div>
+        </section>
+
+        <section id="social">
+            <h2>Across the Internet</h2>
+            <p class="social-links">
+                Add your <a href="#">LinkedIn</a>, <a href="#">GitHub</a> profile links
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
